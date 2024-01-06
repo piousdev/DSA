@@ -7,7 +7,8 @@ public class Main {
         Solution[] solutions = {
                 new BruteForceSolution(),
                 new HashSetSolution(),
-                new SortingSolution()
+                new SortingSolution(),
+                new HashSetSimplified()
         };
 
         Integer[][] numberSets = {
