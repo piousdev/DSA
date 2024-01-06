@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Solution {
+public interface Solution {
+    boolean checkForDuplicates(Integer[] numbers);
 }
