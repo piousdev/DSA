@@ -1,4 +1,4 @@
-function checkForDuplicatesBruteForce(numbers) {
+function checkForDuplicates(numbers) {
     for (let i = 0; i < numbers.length; i++) {
         for (let j = i + 1; j < numbers.length; j++) {
             if (numbers[i] === numbers[j]) {
@@ -16,6 +16,6 @@ const numberSets = [
 ];
 
 for (let numberSet of numberSets) {
-    const result = checkForDuplicatesBruteForce(numberSet.numbers);
+    const result = checkForDuplicates(numberSet.numbers);
     console.log(`The result for this number set ${numberSet.setName} is: ${result}`);
 }
