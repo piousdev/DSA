@@ -24,15 +24,15 @@ public class Main {
 
         Solution solution = new Solution();
 
-        Integer[][] duplicateArrays = {
+        Integer[][] numberSets = {
             {1,2,3,1},
             {1,2,3,4},
             {1,1,1,3,3,4,3,2,4,2}
         };
 
-        for (Integer[] duplicate : duplicateArrays) {
-            boolean result = solution.checkForDuplicates(duplicate);
-            System.out.println("The result for this duplicate array " + Arrays.toString(duplicate) + " is: " + result);
+        for (Integer[] numberSet : numberSets) {
+            boolean result = solution.checkForDuplicates(numberSet);
+            System.out.println("The result for this numberSet array " + Arrays.toString(numberSet) + " is: " + result);
         }
     }
 }
